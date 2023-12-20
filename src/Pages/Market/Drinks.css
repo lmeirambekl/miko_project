@@ -1,0 +1,38 @@
+.drinkk {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f40e63;
+  }
+  
+  .drinkk ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    background-color: #f40e63;
+  }
+  
+  .drinkk li {
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #6731c1;
+  }
+  
+  .drinkk img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .drinkk h1 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  

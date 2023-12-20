@@ -1,0 +1,77 @@
+:root {
+    --main-color: #6731c1;
+    --accent-color: #f40e63;
+    --background-color: #1d1b1e;
+    --text-color: #ffffff;
+    --button-hover-color: #000000;
+  }
+  
+  .signin-container body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .signin-container {
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signin-container h2 {
+    color: var(--text-color);
+  }
+  
+  .signin-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signin-container label {
+    margin-top: 10px;
+  }
+  
+  .signin-container input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--text-color);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--text-color);
+  }
+  
+  .signin-container button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signin-container  button:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  .signin-container a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .signin-container a:hover {
+    text-decoration: underline;
+  }
+
+  .signin-container{
+    width: 40%;
+    margin: 7% auto;
+  }
+  
